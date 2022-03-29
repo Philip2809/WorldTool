@@ -51,6 +51,11 @@ data modify storage worldtool:storage Translation."info.set_pos2" set value '["S
 data modify storage worldtool:storage Translation."info.menu_closed" set value "Closed"
 data modify storage worldtool:storage Translation."info.killed_process" set value "Killed any running process"
 data modify storage worldtool:storage Translation."info.pick_block" set value "Click a block in the world to use"
+data modify storage worldtool:storage Translation."info.welcome_message" set value '["Welcome to ",{"text":"WorldTool!\\n\\n","color":"green","underlined":true},{"text":"General Tool:\\n","color":"red","bold":true},{"nbt":"Translation.\\"info.tool_general\\"","storage":"worldtool:storage"},"\\n\\n\\n",{"text":"Brush Tool:\\n","color":"red","bold":true},{"nbt":"Translation.\\"info.tool_brush\\"","storage":"worldtool:storage"},"\\n\\n\\n",{"text":"Shape Tool:\\n","color":"red","bold":true},{"nbt":"Translation.\\"info.tool_shapes\\"","storage":"worldtool:storage"},"\\n\\n",{"nbt":"Translation.\\"info.go_to_docs\\"","storage":"worldtool:storage","interpret":true}]'
+data modify storage worldtool:storage Translation."info.tool_general" set value ' With this tool you can select two positions and do varius things. You can clone, delete, fill, replace, measure and much, much more with this versatile tool!'
+data modify storage worldtool:storage Translation."info.tool_brush" set value " With this tool, you can select a block and use it as a brush. Hold down left click to paint."
+data modify storage worldtool:storage Translation."info.tool_shapes" set value " With this tool, select a position and a shape. It will generate the shape selected on the spot!"
+data modify storage worldtool:storage Translation."info.go_to_docs" set value '["Go to the docs for more information - ", {"text":"Click here","color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/Ellivers/WorldTool/wiki"}}]'
 
 # Errors
 data modify storage worldtool:storage Translation."error.both_pos_duplicates" set value "Error: You appear to have duplicate positions set. Try setting both positions 1 and 2 again."

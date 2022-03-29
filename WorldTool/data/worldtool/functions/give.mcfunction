@@ -5,6 +5,8 @@ loot give @s loot worldtool:general_tool
 loot give @s loot worldtool:brush_tool
 loot give @s loot worldtool:shape_tool
 
+tellraw @s {"nbt":"Translation.\"info.welcome_message\"","storage": "worldtool:storage","interpret": true}
+
 function #worldtool:addon/give_tools
 
 tag @s add wt.no_space
